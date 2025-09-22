@@ -1,0 +1,53 @@
+# Nmap 7.98 scan initiated Mon Sep 22 16:15:21 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.014s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  open     ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: B8:B7:DB:47:69:F5 (Goip Global Services Pvt.)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.015s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+MAC Address: 24:32:AE:6B:72:DB (Hangzhou Hikvision Digital Technology)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FC:1D:2A:2C:40:06 (vivo Mobile Communication)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.035s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: E2:EA:1F:AE:40:1D (Unknown)
+
+Nmap scan report for 192.168.1.9
+Host is up (0.031s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+7070/tcp open  realserver
+MAC Address: 00:2E:2D:10:36:26 (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0011s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+# Nmap done at Mon Sep 22 16:16:46 2025 -- 256 IP addresses (6 hosts up) scanned in 85.00 seconds
